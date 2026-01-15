@@ -12,6 +12,79 @@ struct VoteView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 24) {
+                    // MARK: - Register to Vote Hero
+                    VStack(spacing: 20) {
+                        // Icon
+                        ZStack {
+                            Circle()
+                                .fill(
+                                    LinearGradient(
+                                        colors: [.popBlue, .popBlue.opacity(0.7)],
+                                        startPoint: .topLeading,
+                                        endPoint: .bottomTrailing
+                                    )
+                                )
+                                .frame(width: 100, height: 100)
+
+                            Image(systemName: "checkmark.circle.fill")
+                                .font(.system(size: 50))
+                                .foregroundColor(.white)
+                        }
+
+                        // Title
+                        VStack(spacing: 8) {
+                            Text("Register to Vote")
+                                .font(.largeTitle)
+                                .fontWeight(.bold)
+                                .foregroundColor(.white)
+
+                            Text("Your voice matters. Make it count.")
+                                .font(.headline)
+                                .foregroundColor(.white.opacity(0.9))
+                        }
+
+                        // CTA Button
+                        Link(destination: URL(string: "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx")!) {
+                            HStack(spacing: 12) {
+                                Image(systemName: "pencil.and.list.clipboard")
+                                    .font(.title3)
+                                Text("Register Now")
+                                    .font(.title3)
+                                    .fontWeight(.bold)
+                                Image(systemName: "arrow.right")
+                                    .font(.title3)
+                            }
+                            .foregroundColor(.popBlue)
+                            .padding(.horizontal, 32)
+                            .padding(.vertical, 16)
+                            .background(Color.white)
+                            .cornerRadius(30)
+                            .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
+                        }
+
+                        // Already registered?
+                        Link(destination: URL(string: "https://vip.sdsos.gov/VIPLogin.aspx")!) {
+                            Text("Already registered? Check your status")
+                                .font(.subheadline)
+                                .foregroundColor(.white.opacity(0.9))
+                                .underline()
+                        }
+                    }
+                    .padding(.vertical, 40)
+                    .padding(.horizontal, 20)
+                    .frame(maxWidth: .infinity)
+                    .background(
+                        LinearGradient(
+                            colors: [.popBlue, .popDarkBlue],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .cornerRadius(24)
+                    .shadow(color: .popBlue.opacity(0.3), radius: 15, x: 0, y: 10)
+                    .padding(.horizontal)
+                    .padding(.top, 8)
+
                     // Ballot Lookup Card
                     VStack(alignment: .leading, spacing: 16) {
                         HStack {
@@ -115,15 +188,15 @@ struct VoteView: View {
                             )
 
                             ResourceLink(
-                                title: "Register to Vote",
-                                icon: "checkmark.circle",
-                                url: "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx"
-                            )
-
-                            ResourceLink(
                                 title: "Voter Information Portal",
                                 icon: "person.text.rectangle",
                                 url: "https://vip.sdsos.gov/VIPLogin.aspx"
+                            )
+
+                            ResourceLink(
+                                title: "Election Results",
+                                icon: "chart.bar.fill",
+                                url: "https://electionresults.sd.gov/"
                             )
                         }
                     }
