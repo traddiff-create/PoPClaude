@@ -30,6 +30,16 @@ struct ContentView: View {
                     Label("Vote", systemImage: "checkmark.circle")
                 }
 
+            ActionView()
+                .tabItem {
+                    Label("Action", systemImage: "bolt.circle.fill")
+                }
+
+            EngageView()
+                .tabItem {
+                    Label("Engage", systemImage: "lightbulb.fill")
+                }
+
             ConnectView()
                 .tabItem {
                     Label("Connect", systemImage: "person.2")

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    themes.xml
+    PoP - People Over Party
+    Android Theme Resources (for splash screen before Compose loads)
+-->
+<resources>
+    <style name="Theme.PoP" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#1A7BA8</item>
+        <item name="android:navigationBarColor">#1A7BA8</item>
+        <item name="android:windowBackground">#F5F5F5</item>
+    </style>
+</resources>

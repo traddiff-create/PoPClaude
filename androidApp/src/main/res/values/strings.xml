@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    strings.xml
+    PoP - People Over Party
+    Android String Resources
+-->
+<resources>
+    <string name="app_name">PoP</string>
+    <string name="app_name_full">People Over Party</string>
+
+    <!-- Tab titles -->
+    <string name="tab_learn">Learn</string>
+    <string name="tab_south_dakota">South Dakota</string>
+    <string name="tab_documents">Documents</string>
+    <string name="tab_vote">Vote</string>
+    <string name="tab_connect">Connect</string>
+    <string name="tab_about">About</string>
+
+    <!-- Common actions -->
+    <string name="action_shuffle">Shuffle</string>
+    <string name="action_next">Next</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_flip">Tap to reveal answer</string>
+
+    <!-- Categories -->
+    <string name="category_all">All</string>
+    <string name="category_american_government">American Government</string>
+    <string name="category_american_history">American History</string>
+    <string name="category_integrated_civics">Integrated Civics</string>
+</resources>
