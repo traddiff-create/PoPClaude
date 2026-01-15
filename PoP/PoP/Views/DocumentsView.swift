@@ -158,6 +158,7 @@ struct DocumentDetailView: View {
                     Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
                         .foregroundColor(isBookmarked ? .popGold : .popBlue)
                 }
+                .accessibilityLabel(isBookmarked ? "Remove bookmark" : "Add bookmark")
 
                 Button {
                     if fontSize > 12 {
@@ -166,6 +167,7 @@ struct DocumentDetailView: View {
                 } label: {
                     Image(systemName: "textformat.size.smaller")
                 }
+                .accessibilityLabel("Decrease font size")
 
                 Button {
                     if fontSize < 24 {
@@ -174,6 +176,7 @@ struct DocumentDetailView: View {
                 } label: {
                     Image(systemName: "textformat.size.larger")
                 }
+                .accessibilityLabel("Increase font size")
             }
         }
     }

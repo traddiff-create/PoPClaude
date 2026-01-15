@@ -187,6 +187,7 @@ struct LearnView: View {
                                 .foregroundColor(currentIndex > 0 ? .popBlue : .gray.opacity(0.3))
                         }
                         .disabled(currentIndex == 0)
+                        .accessibilityLabel("Previous card")
 
                         Button {
                             shuffleCards()
@@ -195,6 +196,7 @@ struct LearnView: View {
                                 .font(.system(size: 50))
                                 .foregroundColor(.popGold)
                         }
+                        .accessibilityLabel("Shuffle cards")
 
                         Button {
                             nextCard()
@@ -204,6 +206,7 @@ struct LearnView: View {
                                 .foregroundColor(currentIndex < filteredQuestions.count - 1 ? .popBlue : .gray.opacity(0.3))
                         }
                         .disabled(currentIndex >= filteredQuestions.count - 1)
+                        .accessibilityLabel("Next card")
                     }
                     .padding(.bottom, 30)
                 }
@@ -216,6 +219,7 @@ struct LearnView: View {
                     } label: {
                         Image(systemName: "arrow.clockwise")
                     }
+                    .accessibilityLabel("Reset and shuffle cards")
                 }
             }
         }
@@ -270,6 +274,7 @@ struct CategoryButton: View {
             .cornerRadius(20)
             .shadow(color: .black.opacity(0.05), radius: 2, x: 0, y: 1)
         }
+        .accessibilityLabel("\(title) category\(isSelected ? ", selected" : "")")
     }
 }
 
@@ -351,6 +356,9 @@ struct FlashcardView: View {
             .padding(24)
         }
         .frame(height: 350)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(showAnswer ? "Answer: \(question.answer)" : "Question \(question.id): \(question.question)")
+        .accessibilityHint(showAnswer ? "Tap to see question" : "Tap to reveal answer")
     }
 }
 

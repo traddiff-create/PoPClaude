@@ -47,6 +47,7 @@ struct ConnectView: View {
                             .frame(maxWidth: .infinity)
                         }
                         .buttonStyle(PrimaryButtonStyle())
+                        .accessibilityLabel("Join Discord community, opens Discord app or website")
                     }
                     .padding()
                     .cardStyle()
@@ -110,6 +111,7 @@ struct ConnectView: View {
                                     .font(.caption)
                                     .fontWeight(.medium)
                                 }
+                                .accessibilityLabel("Export newsletter signups to file")
                             }
                             .padding(.top, 4)
                         }
@@ -256,6 +258,7 @@ struct SocialLink: View {
                 .background(Color.popBlue.opacity(0.05))
                 .cornerRadius(12)
             }
+            .accessibilityLabel("Open \(platform): \(handle)")
         }
     }
 }

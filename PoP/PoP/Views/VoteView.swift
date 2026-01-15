@@ -61,6 +61,7 @@ struct VoteView: View {
                             .cornerRadius(30)
                             .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
                         }
+                        .accessibilityLabel("Register to vote, opens SD Secretary of State website")
 
                         // Already registered?
                         Link(destination: URL(string: "https://vip.sdsos.gov/VIPLogin.aspx")!) {
@@ -69,6 +70,7 @@ struct VoteView: View {
                                 .foregroundColor(.white.opacity(0.9))
                                 .underline()
                         }
+                        .accessibilityLabel("Check voter registration status, opens website")
                     }
                     .padding(.vertical, 40)
                     .padding(.horizontal, 20)
@@ -109,6 +111,7 @@ struct VoteView: View {
                             .frame(maxWidth: .infinity)
                         }
                         .buttonStyle(PrimaryButtonStyle())
+                        .accessibilityLabel("Look up your ballot on Ballotpedia, opens website")
 
                         Text("Powered by Ballotpedia")
                             .font(.caption)
@@ -241,6 +244,7 @@ struct ResourceLink: View {
                 .background(Color.popBlue.opacity(0.05))
                 .cornerRadius(10)
             }
+            .accessibilityLabel("\(title), opens website")
         }
     }
 }

@@ -154,6 +154,7 @@ struct ContactRepsView: View {
                     .cornerRadius(12)
                     .shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
                 }
+                .accessibilityLabel("View all legislators on SD Legislature website, opens in browser")
                 .padding(.horizontal)
 
                 Spacer(minLength: 100)
@@ -252,6 +253,8 @@ struct QuickActionRow: View {
         .background(Color.white)
         .cornerRadius(16)
         .shadow(color: .black.opacity(0.05), radius: 8, x: 0, y: 2)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("\(title). \(subtitle)")
     }
 }
 
@@ -281,6 +284,8 @@ struct RepresentativeRow: View {
                     .foregroundColor(isSelected ? .popBlue : .gray)
                     .font(.title3)
             }
+            .accessibilityLabel("\(rep.name), \(isSelected ? "selected" : "not selected")")
+            .accessibilityHint("Tap to \(isSelected ? "deselect" : "select")")
 
             // Rep info
             VStack(alignment: .leading, spacing: 2) {
@@ -308,19 +313,21 @@ struct RepresentativeRow: View {
                 Button(action: onEmail) {
                     Image(systemName: "envelope.fill")
                         .foregroundColor(.popBlue)
-                        .frame(width: 36, height: 36)
+                        .frame(width: 44, height: 44)
                         .background(Color.popBlue.opacity(0.1))
                         .cornerRadius(8)
                 }
+                .accessibilityLabel("Email \(rep.name)")
 
                 if rep.phone != nil {
                     Button(action: onCall) {
                         Image(systemName: "phone.fill")
                             .foregroundColor(.green)
-                            .frame(width: 36, height: 36)
+                            .frame(width: 44, height: 44)
                             .background(Color.green.opacity(0.1))
                             .cornerRadius(8)
                     }
+                    .accessibilityLabel("Call \(rep.name)")
                 }
             }
         }
