@@ -127,7 +127,7 @@ struct CandidateResearchView: View {
                             Text("Resources")
                                 .font(.caption)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
 
                             ForEach(category.resources) { resource in
                                 EngageResourceLink(
@@ -307,7 +307,7 @@ struct ResourcesListView: View {
                                         if resource.isNonpartisan {
                                             Text("Nonpartisan")
                                                 .font(.caption2)
-                                                .foregroundColor(.popGold)
+                                                .foregroundColor(.popDarkBlue)
                                                 .padding(.horizontal, 6)
                                                 .padding(.vertical, 2)
                                                 .background(Color.popGold.opacity(0.1))

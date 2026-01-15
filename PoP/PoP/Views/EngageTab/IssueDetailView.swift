@@ -68,7 +68,7 @@ struct IssueDetailView: View {
                             Text("\(index + 1).")
                                 .font(.subheadline)
                                 .fontWeight(.semibold)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                                 .frame(width: 24)
                             Text(question)
                                 .font(.subheadline)
@@ -85,7 +85,7 @@ struct IssueDetailView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         HStack(spacing: 8) {
                             Image(systemName: "hands.clap.fill")
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("Where Most Agree")
                                 .font(.headline)
                                 .foregroundColor(.popDarkBlue)
@@ -207,7 +207,7 @@ struct IssueDetailView: View {
         case "Right-leaning":
             return .red
         case "Nonpartisan", "Scientific consensus":
-            return .popGold
+            return .popDarkBlue
         default:
             return .secondary
         }

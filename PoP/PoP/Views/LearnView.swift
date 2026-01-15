@@ -113,7 +113,7 @@ struct LearnView: View {
                     Text("\(progressManager.knownCount) of \(progressManager.totalCount) learned")
                         .font(.subheadline)
                         .fontWeight(.medium)
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
                 }
                 .padding(.horizontal)
                 .padding(.vertical, 8)
@@ -146,7 +146,7 @@ struct LearnView: View {
                             Text(progressManager.isKnown(questionId: question.id) ? "Learned" : "Mark as Learned")
                         }
                         .font(.headline)
-                        .foregroundColor(progressManager.isKnown(questionId: question.id) ? .popGold : .popBlue)
+                        .foregroundColor(progressManager.isKnown(questionId: question.id) ? .popDarkBlue : .popBlue)
                     }
                     .padding(.top, 16)
                 } else {
@@ -316,7 +316,7 @@ struct FlashcardView: View {
                                 .font(.caption)
                                 .fontWeight(.medium)
                         }
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
                     }
                 }
 
@@ -326,7 +326,7 @@ struct FlashcardView: View {
                     Text("Answer")
                         .font(.subheadline)
                         .fontWeight(.semibold)
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     Text(question.answer)
                         .font(.title2)

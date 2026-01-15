@@ -26,7 +26,7 @@ struct ConnectView: View {
                         HStack {
                             Image(systemName: "person.3.fill")
                                 .font(.title2)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("Join the Community")
                                 .font(.title2)
                                 .fontWeight(.bold)
@@ -124,7 +124,7 @@ struct ConnectView: View {
                         HStack {
                             Image(systemName: "at")
                                 .font(.title2)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("Follow Us")
                                 .font(.title2)
                                 .fontWeight(.bold)

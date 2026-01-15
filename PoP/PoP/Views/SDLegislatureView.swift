@@ -16,7 +16,7 @@ struct SDLegislatureView: View {
                 VStack(spacing: 8) {
                     Image(systemName: "scroll.fill")
                         .font(.system(size: 50))
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     Text("SD Legislature")
                         .font(.largeTitle)

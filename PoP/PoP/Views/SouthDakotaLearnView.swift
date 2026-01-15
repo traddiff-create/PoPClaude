@@ -64,7 +64,7 @@ struct SouthDakotaLearnView: View {
                 // Header with SD branding
                 HStack {
                     Image(systemName: "building.columns.fill")
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
                     Text("South Dakota Civics")
                         .font(.headline)
                         .foregroundColor(.popDarkBlue)
@@ -123,7 +123,7 @@ struct SouthDakotaLearnView: View {
                     Text("\(progressManager.knownCount) of \(progressManager.totalCount) learned")
                         .font(.subheadline)
                         .fontWeight(.medium)
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
                 }
                 .padding(.horizontal)
                 .padding(.vertical, 8)
@@ -163,7 +163,7 @@ struct SouthDakotaLearnView: View {
                     VStack(spacing: 16) {
                         Image(systemName: selectedFilter == .learned ? "star.circle.fill" : "checkmark.circle.fill")
                             .font(.system(size: 60))
-                            .foregroundColor(.popGold)
+                            .foregroundColor(.popDarkBlue)
                         Text(emptyStateMessage)
                             .font(.title2)
                             .fontWeight(.semibold)
@@ -203,7 +203,7 @@ struct SouthDakotaLearnView: View {
                         } label: {
                             Image(systemName: "shuffle.circle.fill")
                                 .font(.system(size: 50))
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                         }
 
                         Button {
@@ -329,7 +329,7 @@ struct SDFlashcardView: View {
                                 .font(.caption)
                                 .fontWeight(.medium)
                         }
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
                     }
                 }
 

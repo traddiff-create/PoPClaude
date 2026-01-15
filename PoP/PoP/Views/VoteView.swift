@@ -92,7 +92,7 @@ struct VoteView: View {
                         HStack {
                             Image(systemName: "doc.text.magnifyingglass")
                                 .font(.title2)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("Find Your Ballot")
                                 .font(.title2)
                                 .fontWeight(.bold)
@@ -176,7 +176,7 @@ struct VoteView: View {
                         HStack {
                             Image(systemName: "flag")
                                 .font(.title2)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("South Dakota")
                                 .font(.title2)
                                 .fontWeight(.bold)

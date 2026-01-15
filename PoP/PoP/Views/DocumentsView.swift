@@ -86,7 +86,7 @@ struct DocumentRowView: View {
                     if isBookmarked {
                         Image(systemName: "bookmark.fill")
                             .font(.caption)
-                            .foregroundColor(.popGold)
+                            .foregroundColor(.popDarkBlue)
                     }
                 }
 
@@ -96,7 +96,7 @@ struct DocumentRowView: View {
 
                 Text("\(document.year)")
                     .font(.caption)
-                    .foregroundColor(.popGold)
+                    .foregroundColor(.popDarkBlue)
                     .fontWeight(.medium)
             }
         }

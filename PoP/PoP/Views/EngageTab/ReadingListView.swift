@@ -66,7 +66,7 @@ struct ReadingListView: View {
             HStack(spacing: 16) {
                 Label("All available at libraries", systemImage: "building.columns")
                     .font(.caption2)
-                    .foregroundColor(.popGold)
+                    .foregroundColor(.popDarkBlue)
             }
         }
         .padding()
@@ -189,7 +189,7 @@ struct ReadingListView: View {
 
                 Text(org.category)
                     .font(.caption2)
-                    .foregroundColor(.popGold)
+                    .foregroundColor(.popDarkBlue)
                     .padding(.horizontal, 8)
                     .padding(.vertical, 4)
                     .background(Color.popGold.opacity(0.1))

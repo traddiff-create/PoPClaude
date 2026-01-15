@@ -55,7 +55,7 @@ struct DiscussionGuidesView: View {
                 Label("All skill levels", systemImage: "person.2")
             }
             .font(.caption)
-            .foregroundColor(.popGold)
+            .foregroundColor(.popDarkBlue)
         }
         .padding()
         .background(Color.white)
@@ -69,7 +69,7 @@ struct DiscussionGuidesView: View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(spacing: 8) {
                 Image(systemName: "heart.fill")
-                    .foregroundColor(.popGold)
+                    .foregroundColor(.popDarkBlue)
                 Text("Inspired by Dr. King")
                     .font(.headline)
                     .foregroundColor(.popDarkBlue)

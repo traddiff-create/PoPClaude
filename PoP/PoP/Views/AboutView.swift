@@ -32,7 +32,7 @@ struct AboutView: View {
                         Text("People Over Party")
                             .font(.title2)
                             .fontWeight(.semibold)
-                            .foregroundColor(.popGold)
+                            .foregroundColor(.popDarkBlue)
 
                         Text("Rapid City, South Dakota")
                             .font(.subheadline)
@@ -141,7 +141,7 @@ struct AboutView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
                             Image(systemName: "heart.circle.fill")
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("Open Source Vision")
                                 .font(.headline)
                                 .foregroundColor(.popDarkBlue)
@@ -178,7 +178,7 @@ struct SectionHeader: View {
         HStack {
             Image(systemName: icon)
                 .font(.title2)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
             Text(title)
                 .font(.title2)
                 .fontWeight(.bold)
@@ -221,7 +221,7 @@ struct BulletPoint: View {
         HStack(alignment: .top, spacing: 8) {
             Image(systemName: "checkmark.circle.fill")
                 .font(.caption)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
             Text(text)
                 .font(.subheadline)
                 .foregroundColor(.popDarkBlue)

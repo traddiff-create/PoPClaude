@@ -32,7 +32,7 @@ struct VolunteerHubView: View {
 
                     Text("We always need help!")
                         .font(.headline)
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     Text("Join our team of dedicated volunteers making a difference in South Dakota")
                         .font(.subheadline)

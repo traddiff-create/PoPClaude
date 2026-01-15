@@ -20,7 +20,7 @@ struct SouthDakotaView: View {
                     VStack(spacing: 8) {
                         Image(systemName: "building.columns.fill")
                             .font(.system(size: 50))
-                            .foregroundColor(.popGold)
+                            .foregroundColor(.popDarkBlue)
 
                         Text("South Dakota")
                             .font(.largeTitle)

@@ -106,7 +106,7 @@ struct CommonGroundQuizView: View {
     private func infoRow(icon: String, text: String) -> some View {
         HStack(spacing: 12) {
             Image(systemName: icon)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
                 .frame(width: 24)
             Text(text)
                 .font(.subheadline)

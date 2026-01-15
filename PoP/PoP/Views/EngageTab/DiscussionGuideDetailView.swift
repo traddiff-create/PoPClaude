@@ -109,7 +109,7 @@ struct DiscussionGuideDetailView: View {
                 Label(guide.groupSize, systemImage: "person.2")
             }
             .font(.caption)
-            .foregroundColor(.popGold)
+            .foregroundColor(.popDarkBlue)
         }
         .frame(maxWidth: .infinity)
         .padding()

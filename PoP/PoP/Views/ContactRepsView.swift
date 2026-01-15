@@ -448,7 +448,7 @@ struct EmailComposerSheet: View {
                 if let template = template {
                     Text("Using template: \(template.title)")
                         .font(.caption)
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
                 }
 
                 VStack(spacing: 12) {

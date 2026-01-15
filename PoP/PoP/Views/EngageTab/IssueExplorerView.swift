@@ -81,7 +81,7 @@ struct IssueExplorerView: View {
                     Label("\(issue.keyTerms.count) terms", systemImage: "textformat.abc")
                 }
                 .font(.caption2)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
             }
 
             Spacer()

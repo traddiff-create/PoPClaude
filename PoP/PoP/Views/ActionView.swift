@@ -80,7 +80,7 @@ struct ActionView: View {
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
                             Image(systemName: "heart.fill")
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                             Text("Why Volunteer?")
                                 .font(.headline)
                                 .foregroundColor(.popDarkBlue)

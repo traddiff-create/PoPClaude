@@ -41,7 +41,7 @@ struct EventHostingGuideView: View {
         VStack(spacing: 12) {
             Image(systemName: guide.icon)
                 .font(.system(size: 48))
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
 
             Text(guide.title)
                 .font(.title2)
@@ -136,7 +136,7 @@ struct EventHostingGuideView: View {
                             ForEach(checklist) { item in
                                 HStack(alignment: .top, spacing: 10) {
                                     Image(systemName: "square")
-                                        .foregroundColor(.popGold)
+                                        .foregroundColor(.popDarkBlue)
                                         .font(.caption)
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text(item.text)

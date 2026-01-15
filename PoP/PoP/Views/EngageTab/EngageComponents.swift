@@ -126,7 +126,7 @@ struct ValueResultRow: View {
             Text("\(rank)")
                 .font(.title2)
                 .fontWeight(.bold)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
                 .frame(width: 30)
 
             Image(systemName: value.icon)
@@ -187,7 +187,7 @@ struct ShareableResultsCard: View {
 
             Text("peopleoverpartysd.com")
                 .font(.caption2)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
         }
         .padding()
         .background(Color.popLightBackground)
@@ -285,7 +285,7 @@ struct EngageResourceLink: View {
                         if isNonpartisan {
                             Text("Nonpartisan")
                                 .font(.caption2)
-                                .foregroundColor(.popGold)
+                                .foregroundColor(.popDarkBlue)
                                 .padding(.horizontal, 6)
                                 .padding(.vertical, 2)
                                 .background(Color.popGold.opacity(0.1))
@@ -424,7 +424,7 @@ struct BookCard: View {
 
             Text("\(book.year)")
                 .font(.caption2)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
@@ -510,7 +510,7 @@ struct DiscussionGuideCard: View {
                     }
                 }
                 .font(.caption2)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
             }
 
             Spacer()
@@ -578,7 +578,7 @@ struct EventTypeCard: View {
                 Text(eventType.suggestedDuration)
             }
             .font(.caption2)
-            .foregroundColor(.popGold)
+            .foregroundColor(.popDarkBlue)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()

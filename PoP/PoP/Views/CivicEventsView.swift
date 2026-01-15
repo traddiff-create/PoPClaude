@@ -44,7 +44,7 @@ struct CivicEventsView: View {
                 HStack(spacing: 12) {
                     Image(systemName: "heart.circle.fill")
                         .font(.title2)
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     VStack(alignment: .leading, spacing: 2) {
                         Text("Committed to Nonviolence")
@@ -293,7 +293,7 @@ struct NonviolenceGuidelinesView: View {
                 VStack(spacing: 12) {
                     Image(systemName: "heart.circle.fill")
                         .font(.system(size: 60))
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     Text("Principles of Nonviolence")
                         .font(.title)

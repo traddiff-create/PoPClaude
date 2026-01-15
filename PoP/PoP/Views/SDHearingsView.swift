@@ -334,7 +334,7 @@ struct HowToTestifyView: View {
                 VStack(spacing: 12) {
                     Image(systemName: "person.wave.2.fill")
                         .font(.system(size: 60))
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     Text("How to Testify")
                         .font(.title)
@@ -460,7 +460,7 @@ struct DetailedStep: View {
                 ForEach(details, id: \.self) { detail in
                     HStack(alignment: .top, spacing: 8) {
                         Text("•")
-                            .foregroundColor(.popGold)
+                            .foregroundColor(.popDarkBlue)
                         Text(detail)
                             .font(.subheadline)
                             .foregroundColor(.secondary)

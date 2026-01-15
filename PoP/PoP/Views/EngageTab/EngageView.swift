@@ -35,7 +35,7 @@ struct EngageView: View {
         VStack(spacing: 12) {
             Image(systemName: "lightbulb.fill")
                 .font(.system(size: 48))
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
 
             Text("Civic Engagement Hub")
                 .font(.title2)
@@ -141,7 +141,7 @@ struct EngageView: View {
             Text("Our goal is informed citizenship, not partisan conversion.")
                 .font(.caption)
                 .fontWeight(.medium)
-                .foregroundColor(.popGold)
+                .foregroundColor(.popDarkBlue)
         }
         .padding()
         .background(Color.white)

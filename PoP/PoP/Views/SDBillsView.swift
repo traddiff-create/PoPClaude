@@ -20,7 +20,7 @@ struct SDBillsView: View {
                 VStack(spacing: 8) {
                     Image(systemName: "doc.text.magnifyingglass")
                         .font(.system(size: 50))
-                        .foregroundColor(.popGold)
+                        .foregroundColor(.popDarkBlue)
 
                     Text("2026 Session Bills")
                         .font(.largeTitle)
