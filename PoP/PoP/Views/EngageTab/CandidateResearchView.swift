@@ -130,7 +130,7 @@ struct CandidateResearchView: View {
                                 .foregroundColor(.popGold)
 
                             ForEach(category.resources) { resource in
-                                ResourceLink(
+                                EngageResourceLink(
                                     name: resource.name,
                                     url: resource.url,
                                     description: resource.description,

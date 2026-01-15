@@ -122,27 +122,157 @@ struct SDLegislators {
     ]
 
     // MARK: - SD State Senate (35 members)
-    // NOTE: Sample data - should be updated from sdlegislature.gov
+    // Updated: January 2026 (71st Session) from Ballotpedia
     static let sdSenate: [Representative] = [
-        // District 1-35 Senators
-        Representative(name: "Larry Tidemann", chamber: .sdSenate, district: 7, party: .republican, email: "larry.tidemann@sdlegislature.gov", phone: nil, hometown: "Brookings", photoURL: nil),
-        Representative(name: "Helene Duhamel", chamber: .sdSenate, district: 32, party: .republican, email: "helene.duhamel@sdlegislature.gov", phone: nil, hometown: "Rapid City", photoURL: nil),
-        Representative(name: "Michael Rohl", chamber: .sdSenate, district: 33, party: .republican, email: "michael.rohl@sdlegislature.gov", phone: nil, hometown: "Aberdeen", photoURL: nil),
-        Representative(name: "Jim Bolin", chamber: .sdSenate, district: 16, party: .republican, email: "jim.bolin@sdlegislature.gov", phone: nil, hometown: "Canton", photoURL: nil),
-        Representative(name: "Reynold Nesiba", chamber: .sdSenate, district: 15, party: .democrat, email: "reynold.nesiba@sdlegislature.gov", phone: nil, hometown: "Sioux Falls", photoURL: nil),
-        // Add more senators as needed - this is a sample
+        // District 1-35 Senators (32 Republicans, 3 Democrats)
+        Representative(name: "Michael Rohl", chamber: .sdSenate, district: 1, party: .republican, email: "michael.rohl@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Steve Kolbeck", chamber: .sdSenate, district: 2, party: .republican, email: "steve.kolbeck@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Carl Perry", chamber: .sdSenate, district: 3, party: .republican, email: "carl.perry@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Stephanie Sauder", chamber: .sdSenate, district: 4, party: .republican, email: "stephanie.sauder@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Glen Vilhauer", chamber: .sdSenate, district: 5, party: .republican, email: "glen.vilhauer@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Ernie Otten Jr.", chamber: .sdSenate, district: 6, party: .republican, email: "ernie.otten@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Tim Reed", chamber: .sdSenate, district: 7, party: .republican, email: "tim.reed@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Casey Crabtree", chamber: .sdSenate, district: 8, party: .republican, email: "casey.crabtree@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Joy Hohn", chamber: .sdSenate, district: 9, party: .republican, email: "joy.hohn@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Liz Larson", chamber: .sdSenate, district: 10, party: .democrat, email: "liz.larson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Chris Karr", chamber: .sdSenate, district: 11, party: .republican, email: "chris.karr@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Arch Beal", chamber: .sdSenate, district: 12, party: .republican, email: "arch.beal@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Sue Peterson", chamber: .sdSenate, district: 13, party: .republican, email: "sue.peterson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Larry P. Zikmund", chamber: .sdSenate, district: 14, party: .republican, email: "larry.zikmund@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Jamie Smith", chamber: .sdSenate, district: 15, party: .democrat, email: "jamie.smith@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kevin Jensen", chamber: .sdSenate, district: 16, party: .republican, email: "kevin.jensen@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Sydney Davis", chamber: .sdSenate, district: 17, party: .republican, email: "sydney.davis@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Lauren Nelson", chamber: .sdSenate, district: 18, party: .republican, email: "lauren.nelson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kyle Schoenfish", chamber: .sdSenate, district: 19, party: .republican, email: "kyle.schoenfish@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Paul Miskimins", chamber: .sdSenate, district: 20, party: .republican, email: "paul.miskimins@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "MyKala Voita", chamber: .sdSenate, district: 21, party: .republican, email: "mykala.voita@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Brandon Wipf", chamber: .sdSenate, district: 22, party: .republican, email: "brandon.wipf@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Mark Lapka", chamber: .sdSenate, district: 23, party: .republican, email: "mark.lapka@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Jim Mehlhaff", chamber: .sdSenate, district: 24, party: .republican, email: "jim.mehlhaff@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Tom Pischke", chamber: .sdSenate, district: 25, party: .republican, email: "tom.pischke@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Tamara Grove", chamber: .sdSenate, district: 26, party: .republican, email: "tamara.grove@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Red Dawn Foster", chamber: .sdSenate, district: 27, party: .democrat, email: "red.foster@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "J. Sam Marty", chamber: .sdSenate, district: 28, party: .republican, email: "sam.marty@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "John Carley", chamber: .sdSenate, district: 29, party: .republican, email: "john.carley@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Amber Hulse", chamber: .sdSenate, district: 30, party: .republican, email: "amber.hulse@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Randy Deibert", chamber: .sdSenate, district: 31, party: .republican, email: "randy.deibert@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Helene Duhamel", chamber: .sdSenate, district: 32, party: .republican, email: "helene.duhamel@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Curt Voight", chamber: .sdSenate, district: 33, party: .republican, email: "curt.voight@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Taffy Howard", chamber: .sdSenate, district: 34, party: .republican, email: "taffy.howard@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Greg Blanc", chamber: .sdSenate, district: 35, party: .republican, email: "greg.blanc@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
     ]
 
     // MARK: - SD State House (70 members)
-    // NOTE: Sample data - should be updated from sdlegislature.gov
+    // Updated: January 2026 (71st Session) from Ballotpedia
     static let sdHouse: [Representative] = [
-        // District representatives (2 per district)
-        Representative(name: "Jon Hansen", chamber: .sdHouse, district: 25, party: .republican, email: "jon.hansen@sdlegislature.gov", phone: nil, hometown: "Dell Rapids", photoURL: nil),
-        Representative(name: "Tina Mulally", chamber: .sdHouse, district: 35, party: .republican, email: "tina.mulally@sdlegislature.gov", phone: nil, hometown: "Rapid City", photoURL: nil),
-        Representative(name: "Scott Odenbach", chamber: .sdHouse, district: 31, party: .republican, email: "scott.odenbach@sdlegislature.gov", phone: nil, hometown: "Spearfish", photoURL: nil),
-        Representative(name: "Peri Pourier", chamber: .sdHouse, district: 27, party: .democrat, email: "peri.pourier@sdlegislature.gov", phone: nil, hometown: "Pine Ridge", photoURL: nil),
-        Representative(name: "Linda Duba", chamber: .sdHouse, district: 15, party: .democrat, email: "linda.duba@sdlegislature.gov", phone: nil, hometown: "Sioux Falls", photoURL: nil),
-        // Add more representatives as needed - this is a sample
+        // District 1-35 Representatives (65 Republicans, 5 Democrats)
+        // District 1
+        Representative(name: "Nicholas Fosness", chamber: .sdHouse, district: 1, party: .republican, email: "nicholas.fosness@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Logan Manhart", chamber: .sdHouse, district: 1, party: .republican, email: "logan.manhart@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 2
+        Representative(name: "David Kull", chamber: .sdHouse, district: 2, party: .republican, email: "david.kull@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "John Sjaarda", chamber: .sdHouse, district: 2, party: .republican, email: "john.sjaarda@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 3
+        Representative(name: "Al Novstrup", chamber: .sdHouse, district: 3, party: .republican, email: "al.novstrup@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Brandei Schaefbauer", chamber: .sdHouse, district: 3, party: .republican, email: "brandei.schaefbauer@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 4
+        Representative(name: "Dylan Jordan", chamber: .sdHouse, district: 4, party: .republican, email: "dylan.jordan@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kent Roe", chamber: .sdHouse, district: 4, party: .republican, email: "kent.roe@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 5
+        Representative(name: "Josephine Garcia", chamber: .sdHouse, district: 5, party: .republican, email: "josephine.garcia@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Matt Roby", chamber: .sdHouse, district: 5, party: .republican, email: "matt.roby@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 6
+        Representative(name: "Aaron Aylward", chamber: .sdHouse, district: 6, party: .republican, email: "aaron.aylward@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Tim Czmowski", chamber: .sdHouse, district: 6, party: .republican, email: "tim.czmowski@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 7
+        Representative(name: "Roger DeGroot", chamber: .sdHouse, district: 7, party: .republican, email: "roger.degroot@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Mellissa Heermann", chamber: .sdHouse, district: 7, party: .republican, email: "mellissa.heermann@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 8
+        Representative(name: "Tim Reisch", chamber: .sdHouse, district: 8, party: .republican, email: "tim.reisch@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Tim Walburg", chamber: .sdHouse, district: 8, party: .republican, email: "tim.walburg@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 9
+        Representative(name: "Tesa Schwans", chamber: .sdHouse, district: 9, party: .republican, email: "tesa.schwans@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Bethany Soye", chamber: .sdHouse, district: 9, party: .republican, email: "bethany.soye@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 10
+        Representative(name: "Bobbi Andera", chamber: .sdHouse, district: 10, party: .republican, email: "bobbi.andera@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Erin Healy", chamber: .sdHouse, district: 10, party: .democrat, email: "erin.healy@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 11
+        Representative(name: "Brian Mulder", chamber: .sdHouse, district: 11, party: .republican, email: "brian.mulder@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Keri Weems", chamber: .sdHouse, district: 11, party: .republican, email: "keri.weems@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 12
+        Representative(name: "Amber Arlint", chamber: .sdHouse, district: 12, party: .republican, email: "amber.arlint@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Greg Jamison", chamber: .sdHouse, district: 12, party: .republican, email: "greg.jamison@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 13
+        Representative(name: "John Hughes", chamber: .sdHouse, district: 13, party: .republican, email: "john.hughes@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Jack Kolbeck", chamber: .sdHouse, district: 13, party: .republican, email: "jack.kolbeck@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 14
+        Representative(name: "Tony Kayser", chamber: .sdHouse, district: 14, party: .republican, email: "tony.kayser@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Taylor Rae Rehfeldt", chamber: .sdHouse, district: 14, party: .republican, email: "taylor.rehfeldt@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 15
+        Representative(name: "Erik Muckey", chamber: .sdHouse, district: 15, party: .democrat, email: "erik.muckey@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kadyn Wittman", chamber: .sdHouse, district: 15, party: .democrat, email: "kadyn.wittman@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 16
+        Representative(name: "Karla Lems", chamber: .sdHouse, district: 16, party: .republican, email: "karla.lems@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "John Shubeck", chamber: .sdHouse, district: 16, party: .republican, email: "john.shubeck@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 17
+        Representative(name: "Chris Kassin", chamber: .sdHouse, district: 17, party: .republican, email: "chris.kassin@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "William Shorma", chamber: .sdHouse, district: 17, party: .republican, email: "william.shorma@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 18
+        Representative(name: "Julie Auch", chamber: .sdHouse, district: 18, party: .republican, email: "julie.auch@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Mike Stevens", chamber: .sdHouse, district: 18, party: .republican, email: "mike.stevens@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 19
+        Representative(name: "Jessica Bahmuller", chamber: .sdHouse, district: 19, party: .republican, email: "jessica.bahmuller@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Drew Peterson", chamber: .sdHouse, district: 19, party: .republican, email: "drew.peterson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 20
+        Representative(name: "Jeff Bathke", chamber: .sdHouse, district: 20, party: .republican, email: "jeff.bathke@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kaley Nolz", chamber: .sdHouse, district: 20, party: .republican, email: "kaley.nolz@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 21
+        Representative(name: "Jim Halverson", chamber: .sdHouse, district: 21, party: .republican, email: "jim.halverson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Marty Overweg", chamber: .sdHouse, district: 21, party: .republican, email: "marty.overweg@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 22
+        Representative(name: "Lana Greenfield", chamber: .sdHouse, district: 22, party: .republican, email: "lana.greenfield@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kevin Van Diepen", chamber: .sdHouse, district: 22, party: .republican, email: "kevin.vandiepen@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 23
+        Representative(name: "Spencer Gosch", chamber: .sdHouse, district: 23, party: .republican, email: "spencer.gosch@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Scott Moore", chamber: .sdHouse, district: 23, party: .republican, email: "scott.moore@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 24
+        Representative(name: "Will Mortenson", chamber: .sdHouse, district: 24, party: .republican, email: "will.mortenson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Mike Weisgram", chamber: .sdHouse, district: 24, party: .republican, email: "mike.weisgram@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 25
+        Representative(name: "Jon Hansen", chamber: .sdHouse, district: 25, party: .republican, email: "jon.hansen@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Leslie J. Heinemann", chamber: .sdHouse, district: 25, party: .republican, email: "leslie.heinemann@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 26A
+        Representative(name: "Eric Emery", chamber: .sdHouse, district: 26, party: .democrat, email: "eric.emery@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 26B
+        Representative(name: "Rebecca Reimer", chamber: .sdHouse, district: 26, party: .republican, email: "rebecca.reimer@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 27
+        Representative(name: "Elizabeth May", chamber: .sdHouse, district: 27, party: .republican, email: "elizabeth.may@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Peri Pourier", chamber: .sdHouse, district: 27, party: .republican, email: "peri.pourier@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 28A
+        Representative(name: "Jana Hunt", chamber: .sdHouse, district: 28, party: .republican, email: "jana.hunt@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 28B
+        Representative(name: "Travis Ismay", chamber: .sdHouse, district: 28, party: .republican, email: "travis.ismay@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 29
+        Representative(name: "Terri Jorgenson", chamber: .sdHouse, district: 29, party: .republican, email: "terri.jorgenson@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Kathy Rice", chamber: .sdHouse, district: 29, party: .republican, email: "kathy.rice@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 30 (Pennington County)
+        Representative(name: "Tim Goodwin", chamber: .sdHouse, district: 30, party: .republican, email: "tim.goodwin@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Trish Ladner", chamber: .sdHouse, district: 30, party: .republican, email: "trish.ladner@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 31 (Pennington County)
+        Representative(name: "Mary Fitzgerald", chamber: .sdHouse, district: 31, party: .republican, email: "mary.fitzgerald@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Scott Odenbach", chamber: .sdHouse, district: 31, party: .republican, email: "scott.odenbach@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 32 (Pennington County)
+        Representative(name: "Steve Duffy", chamber: .sdHouse, district: 32, party: .republican, email: "steve.duffy@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Nicole Uhre-Balk", chamber: .sdHouse, district: 32, party: .democrat, email: "nicole.uhre-balk@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 33 (Pennington County)
+        Representative(name: "Phil Jensen", chamber: .sdHouse, district: 33, party: .republican, email: "phil.jensen@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Curt Massie", chamber: .sdHouse, district: 33, party: .republican, email: "curt.massie@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 34 (Pennington County)
+        Representative(name: "Heather Baxter", chamber: .sdHouse, district: 34, party: .republican, email: "heather.baxter@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Mike Derby", chamber: .sdHouse, district: 34, party: .republican, email: "mike.derby@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        // District 35 (Pennington County)
+        Representative(name: "Tina Mulally", chamber: .sdHouse, district: 35, party: .republican, email: "tina.mulally@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
+        Representative(name: "Tony Randolph", chamber: .sdHouse, district: 35, party: .republican, email: "tony.randolph@sdlegislature.gov", phone: nil, hometown: nil, photoURL: nil),
     ]
 
     // MARK: - Pennington County Legislators

@@ -187,7 +187,7 @@ struct ReadingListView: View {
                     .foregroundColor(.secondary)
                     .lineLimit(3)
 
-                Text(org.focus)
+                Text(org.category)
                     .font(.caption2)
                     .foregroundColor(.popGold)
                     .padding(.horizontal, 8)

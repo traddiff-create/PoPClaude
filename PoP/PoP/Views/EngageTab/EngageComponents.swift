@@ -249,7 +249,7 @@ struct ExpandableSection<Content: View>: View {
 }
 
 /// Row for displaying a tip with icon
-struct TipRow: View {
+struct EngageTipRow: View {
     let icon: String
     let text: String
     var iconColor: Color = .popGold
@@ -267,7 +267,7 @@ struct TipRow: View {
 }
 
 /// External link with icon
-struct ResourceLink: View {
+struct EngageResourceLink: View {
     let name: String
     let url: String
     let description: String?

@@ -104,8 +104,8 @@
 | Group | Count | Status |
 |-------|-------|--------|
 | US Congress | 3 | Done (Thune, Rounds, Johnson) |
-| SD Senate | 35 | Sample data (needs full list) |
-| SD House | 70 | Sample data (needs full list) |
+| SD Senate | 35 | Done (32R, 3D) - Updated Jan 2026 |
+| SD House | 70 | Done (65R, 5D) - Updated Jan 2026 |
 
 ### SD Legislature Browser
 
@@ -132,21 +132,21 @@
 
 ### High Priority
 
-- [ ] **Build & Test** - Run full app in iOS Simulator
+- [x] **Build & Test** - Run full app in iOS Simulator (DONE Jan 15, 2026)
 - [ ] **Squarespace Setup** - Create /events and /events/submit pages
-- [ ] **Full Legislators List** - Populate all 105 SD legislators
+- [x] **Full Legislators List** - All 108 legislators populated (DONE Jan 15, 2026)
 
 ### Medium Priority
 
-- [ ] **App Icon** - Design and add to Assets
-- [ ] **Launch Screen** - Create branded splash screen
+- [x] **App Icon** - Exists in Assets (buffalo sun design)
+- [x] **Launch Screen** - Configured in Info.plist (DONE Jan 15, 2026)
 - [ ] **AppConfig.swift** - Create configuration system for adaptability
 
 ### Low Priority
 
 - [ ] **SD Constitution** - Add full text (long document)
 - [ ] **Forking Guide** - Documentation for other PACs
-- [ ] **App Store Prep** - Screenshots, description, metadata
+- [x] **App Store Prep** - Created APP_STORE_SUBMISSION.md with all metadata
 
 ---
 
@@ -166,7 +166,7 @@
 
 | Task | Status | Notes |
 |------|--------|-------|
-| Gather full SD legislator list | Not Started | All 105 members |
+| Gather full SD legislator list | Done | All 108 members (3 US + 35 Senate + 70 House) |
 | Add legislator photos (optional) | Not Started | Enhancement |
 | Write additional message templates | Not Started | Topic-specific |
 

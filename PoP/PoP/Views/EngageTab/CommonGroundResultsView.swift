@@ -47,7 +47,7 @@ struct CommonGroundResultsView: View {
             topValues = CommonGroundFinder.calculateTopValues(from: answers)
         }
         .sheet(isPresented: $showShareSheet) {
-            ShareSheet(items: [shareableProfile.shareText])
+            ShareSheet(activityItems: [shareableProfile.shareText])
         }
     }
 
@@ -175,16 +175,7 @@ struct CommonGroundResultsView: View {
 }
 
 // MARK: - Share Sheet
-
-struct ShareSheet: UIViewControllerRepresentable {
-    let items: [Any]
-
-    func makeUIViewController(context: Context) -> UIActivityViewController {
-        UIActivityViewController(activityItems: items, applicationActivities: nil)
-    }
-
-    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
-}
+// Note: Uses ShareSheet defined in ConnectView.swift
 
 #Preview {
     NavigationStack {

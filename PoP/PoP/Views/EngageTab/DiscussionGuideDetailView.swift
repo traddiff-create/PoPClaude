@@ -61,7 +61,7 @@ struct DiscussionGuideDetailView: View {
                 ExpandableSection(title: "Facilitator Tips", icon: "lightbulb", isExpanded: $tipsExpanded) {
                     VStack(alignment: .leading, spacing: 8) {
                         ForEach(guide.facilitatorTips, id: \.self) { tip in
-                            TipRow(icon: "lightbulb.fill", text: tip, iconColor: .orange)
+                            EngageTipRow(icon: "lightbulb.fill", text: tip, iconColor: .orange)
                         }
                     }
                 }
