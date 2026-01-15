@@ -255,21 +255,7 @@ struct QuickActionRow: View {
     }
 }
 
-// MARK: - Section Header
-struct SectionHeader: View {
-    let title: String
-    let icon: String
-
-    var body: some View {
-        HStack {
-            Image(systemName: icon)
-                .foregroundColor(.popGold)
-            Text(title)
-                .font(.headline)
-                .foregroundColor(.popDarkBlue)
-        }
-    }
-}
+// SectionHeader is defined in AboutView.swift
 
 // MARK: - Representative Row
 struct RepresentativeRow: View {
