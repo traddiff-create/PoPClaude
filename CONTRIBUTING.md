@@ -109,6 +109,7 @@ Select a simulator (iPhone 17 Pro Max recommended) and press Cmd+R to build and 
 
 ## Questions?
 
+- **[Join our Discord](https://discord.gg/sM7Yh2A8)** for community support and discussion
 - Open an issue for technical questions
 - Email hello@peopleoverpartysd.com for general inquiries
 - Visit [peopleoverpartysd.com](https://www.peopleoverpartysd.com/) for more about the organization

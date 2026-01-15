@@ -37,11 +37,11 @@ struct ConnectView: View {
                             .font(.subheadline)
                             .foregroundColor(.secondary)
 
-                        // Discord link placeholder
-                        Link(destination: URL(string: "https://www.peopleoverpartysd.com/")!) {
+                        // Discord community link
+                        Link(destination: URL(string: "https://discord.gg/sM7Yh2A8")!) {
                             HStack {
                                 Image(systemName: "bubble.left.and.bubble.right.fill")
-                                Text("Join Our Community")
+                                Text("Join Discord Community")
                                 Image(systemName: "arrow.up.right")
                             }
                             .frame(maxWidth: .infinity)
@@ -128,6 +128,13 @@ struct ConnectView: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(.popDarkBlue)
                         }
+
+                        SocialLink(
+                            platform: "Discord",
+                            handle: "Join our community",
+                            icon: "bubble.left.and.bubble.right.fill",
+                            url: "https://discord.gg/sM7Yh2A8"
+                        )
 
                         SocialLink(
                             platform: "Instagram",

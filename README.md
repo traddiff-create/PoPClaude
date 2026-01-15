@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-iOS%2017%2B-lightgrey.svg)](https://developer.apple.com/ios/)
 [![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)](https://swift.org/)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2.svg)](https://discord.gg/sM7Yh2A8)
 
 An open-source iOS app for civic education and engagement, built by [Better Together: People Over Party](https://www.peopleoverpartysd.com/) in Rapid City, South Dakota.
 
@@ -119,6 +120,21 @@ This app is designed to be forked and customized for any state or civic organiza
 - **Core Data** - Local persistence for progress tracking
 - **WebKit** - Embedded web views for legislature resources
 - **No external dependencies** - Fully self-contained
+
+---
+
+## Community
+
+Join our Discord community to connect with contributors, ask questions, and discuss civic engagement:
+
+**[Join the Discord Server](https://discord.gg/sM7Yh2A8)**
+
+The Discord includes channels for:
+- App development and support
+- Forking help for your state
+- PAC formation discussions
+- Civic engagement ideas
+- State chapter coordination
 
 ---
 
